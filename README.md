@@ -1,3 +1,3 @@
 titanic
 =======
-to predict suvivor rate on titanic project in Kaggle
+to predict suvivor rate on titanic project in Kaggle in R
