@@ -289,3 +289,7 @@ predictions <- data.frame(Prediction = as.numeric(newvalue2[,1]),Actual = as.num
 predictions$Correct <- (predictions$Actual == predictions$Prediction)
 logistic_random_modle_noAge <- table(predictions$Correct)/length(predictions$Correct)*100
 logistic_random_modle_noAge
+
+#################################################################################################################
+# Very good at predicting onto the same data set but need to test otherwise
+#################################################################################################################
